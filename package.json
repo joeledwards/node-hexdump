@@ -1,0 +1,22 @@
+{
+  "name": "@buzuli/hexdump",
+  "version": "1.0.0",
+  "description": "simple hexump function for debugging buffer contents",
+  "main": "hexdump.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeledwards/node-hexdump.git"
+  },
+  "keywords": [
+    "hexdump"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeledwards/node-hexdump/issues"
+  },
+  "homepage": "https://github.com/joeledwards/node-hexdump#readme"
+}
