@@ -1,6 +1,6 @@
 {
   "name": "@buzuli/hexdump",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple hexump function for debugging buffer contents",
   "main": "hexdump.js",
   "scripts": {
