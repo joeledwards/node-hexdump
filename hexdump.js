@@ -25,7 +25,7 @@ function hexdump (buffer) {
     }
     hex.push(('0' + (b & 0xFF).toString(16)).slice(-2))
     ascii.push(
-      (b > 32 && b < 128)
+      (b > 31 && b < 128)
         ? String.fromCharCode(b)
         : '.'
     )
