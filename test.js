@@ -23,5 +23,7 @@ eq(hx('d')(23),
   '00000000: 6464 6464 6464 6464 6464 6464 6464 6464  dddddddddddddddd\n' +
   '00000016: 6464 6464 6464 64                        ddddddd')
 
-console.log(hexdump(Buffer.from('Hello. My name is DeadBeef.')))
-
+eq(hexdump(Buffer.from('Hello. My name is DeadBeef.')),
+  '00000000: 4865 6c6c 6f2e 204d 7920 6e61 6d65 2069  Hello. My name i\n' +
+  '00000016: 7320 4465 6164 4265 6566 2e              s DeadBeef.'
+)
